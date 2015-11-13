@@ -6,5 +6,4 @@ package base;
 public class BaseDao<T> {
 
 
-
 }

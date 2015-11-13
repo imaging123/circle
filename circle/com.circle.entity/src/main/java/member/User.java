@@ -1,5 +1,6 @@
 package member;
 
+import annotation.Table;
 import base.BaseEntity;
 
 import java.util.Date;
@@ -9,6 +10,7 @@ import java.util.Map;
 /**
  * Created by bixiaofeng on 2015/11/11.
  */
+@Table("member_user")
 public class User extends BaseEntity{
 
 	public static Integer i = 5;
