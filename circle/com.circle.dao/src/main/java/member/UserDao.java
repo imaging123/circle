@@ -1,9 +1,12 @@
 package member;
 
 import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
+import org.springframework.stereotype.Repository;
 import utils.SqlUtil;
 
+import javax.annotation.Resources;
 import java.util.Map;
 
 /**
@@ -11,20 +14,18 @@ import java.util.Map;
  */
 public class UserDao {
 
-	private SqlSessionFactoryBean sqlSessionFactoryBean;
+	private SqlSessionFactory sqlSessionFactory;
 
 	public User selectUserByParams(Map<String, Object> params){
-		StringBuffer sql = new StringBuffer();
-		sql.append("select * from member_user where ");
-		sql.append(SqlUtil.getParamsSql(params));
 		return null;
 	}
 
 	public SqlSession getSession(){
-		return sqlSessionFactoryBean.
+		return sqlSessionFactory.openSession();
+
 	}
 
-	public void setSqlSessionFactoryBean(SqlSessionFactoryBean sqlSessionFactoryBean) {
-		this.sqlSessionFactoryBean = sqlSessionFactoryBean;
+	public void setSqlSessionFactoryBean(SqlSessionFactory sqlSessionFactory) {
+		this.sqlSessionFactory= sqlSessionFactory;
 	}
 }
