@@ -21,10 +21,16 @@
         <spring.version>4.2.0.RELEASE</spring.version>
         <junit.version>4.10</junit.version>
         <mybatis.version>3.3.0</mybatis.version>
+        <jdbc.version>5.1.36</jdbc.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${jdbc.version}</version>
+            </dependency>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
