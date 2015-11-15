@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd931b68-bc73-4035-95af-5bd872ccf0ec" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-dao\src\main\java\com\circle\dao\member\UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-dao\src\main\resources\circle-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-dao\target\classes\circle-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-entity\src\main\java\com\circle\entity\member\mappers\UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-entity\src\main\java\com\circle\entity\member\mappers\UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-entity\src\main\resources\SqlMapConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-entity\target\classes\SqlMapConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-entity\target\classes\com\circle\entity\member\mappers\UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\circle-web\src\main\webapp\views\success.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\github\circle\circle\circle\out\artifacts\com_circle_web_war_exploded\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-entity/src/main/java/com/circle/entity/member/User.java" afterPath="$PROJECT_DIR$/circle-entity/src/main/java/com/circle/entity/member/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-web/src/main/java/com/circle/web/member/UserController.java" afterPath="$PROJECT_DIR$/circle-web/src/main/java/com/circle/web/member/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-service/src/main/java/com/circle/service/member/UserService.java" afterPath="$PROJECT_DIR$/circle-service/src/main/java/com/circle/service/member/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-dao/circle-dao.iml" afterPath="$PROJECT_DIR$/circle-dao/circle-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-entity/circle-entity.iml" afterPath="$PROJECT_DIR$/circle-entity/circle-entity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-service/circle-service.iml" afterPath="$PROJECT_DIR$/circle-service/circle-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-web/src/main/webapp/WEB-INF/circle-servlet.xml" afterPath="$PROJECT_DIR$/circle-web/src/main/webapp/WEB-INF/circle-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-web/circle-web.iml" afterPath="$PROJECT_DIR$/circle-web/circle-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-dao/pom.xml" afterPath="$PROJECT_DIR$/circle-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-entity/pom.xml" afterPath="$PROJECT_DIR$/circle-entity/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-service/pom.xml" afterPath="$PROJECT_DIR$/circle-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-web/pom.xml" afterPath="$PROJECT_DIR$/circle-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-entity/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/circle-entity/src/main/resources/spring-beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-entity/target/classes/spring-beans.xml" afterPath="$PROJECT_DIR$/circle-entity/target/classes/spring-beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-dao/src/main/resources/spring-dao.xml" afterPath="$PROJECT_DIR$/circle-dao/src/main/resources/spring-dao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-dao/target/classes/spring-dao.xml" afterPath="$PROJECT_DIR$/circle-dao/target/classes/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-service/src/main/resources/spring-service.xml" afterPath="$PROJECT_DIR$/circle-service/src/main/resources/spring-service.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle-service/target/classes/spring-service.xml" afterPath="$PROJECT_DIR$/circle-service/target/classes/spring-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="circle.iws" />
@@ -1382,12 +1352,19 @@
       <workItem from="1447475017915" duration="4585000" />
       <workItem from="1447492856661" duration="13493000" />
       <workItem from="1447597360848" duration="4684000" />
-      <workItem from="1447602822144" duration="3902000" />
+      <workItem from="1447602822144" duration="3930000" />
     </task>
+    <task id="LOCAL-00001" summary="ssm">
+      <created>1447606751533</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1447606751533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36696000" />
+    <option name="totallyTimeSpent" value="36724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -1461,6 +1438,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ssm" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
