@@ -26,6 +26,7 @@ public class UserController {
 		String password = request.getParameter("password");
 		User user = userService.getUserByUsernameAndPassword(username, password);
 		request.getSession().setAttribute("user", user);
+		request.setAttribute("user", user);
 
 		return new ModelAndView("success");
 	}

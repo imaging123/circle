@@ -10,15 +10,35 @@ import java.util.Map;
 /**
  * Created by bixiaofeng on 2015/11/11.
  */
-@Table("member_user")
-public class User extends BaseEntity{
+public class User {
+	private Integer id;
+	private String username;
+	private String password;
 
-	public static Integer i = 5;
-	static {
-		i = 6;
+	public Integer getId() {
+		return id;
 	}
 
-	private String nickname;
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+/*private String nickname;
 	private String password;
 	private Date birthday;
 	private Integer gender;
@@ -75,5 +95,5 @@ public class User extends BaseEntity{
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
+	}*/
 }

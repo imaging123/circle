@@ -9,13 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>com.circle.dao</artifactId>
+    <artifactId>circle-dao</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.circle</groupId>
-            <artifactId>com.circle.entity</artifactId>
+            <artifactId>circle-entity</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
         <!--数据库连接池druid-->

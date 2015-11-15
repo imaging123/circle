@@ -1,10 +1,11 @@
 package com.circle.service.member;
 
+import com.circle.dao.mappers.member.UserMapper;
 import com.circle.entity.member.User;
-import com.circle.entity.member.mappers.UserMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import javax.annotation.Resource;
 
 /**
  * Created by bixiaofeng on 2015/11/13.
@@ -13,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class UserService {
 
-	@Autowired
+	@Resource
 	private UserMapper userMapper;
 
 	public User getUserByUsernameAndPassword(String username, String password){

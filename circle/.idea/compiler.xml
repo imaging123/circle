@@ -22,6 +22,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="circle-dao" />
+        <module name="circle-entity" />
+        <module name="circle-service" />
+        <module name="circle-web" />
         <module name="com.circle.dao" />
         <module name="com.circle.entity" />
         <module name="com.circle.service" />
@@ -30,6 +34,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="circle" target="1.5" />
+      <module name="circle-dao" target="1.5" />
+      <module name="circle-entity" target="1.5" />
+      <module name="circle-service" target="1.5" />
+      <module name="circle-web" target="1.5" />
       <module name="com.circle.dao" target="1.5" />
       <module name="com.circle.entity" target="1.5" />
       <module name="com.circle.service" target="1.5" />

@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/circle.iml" filepath="$PROJECT_DIR$/circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-dao/circle-dao.iml" filepath="$PROJECT_DIR$/circle-dao/circle-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-entity/circle-entity.iml" filepath="$PROJECT_DIR$/circle-entity/circle-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-service/circle-service.iml" filepath="$PROJECT_DIR$/circle-service/circle-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-web/circle-web.iml" filepath="$PROJECT_DIR$/circle-web/circle-web.iml" />
     </modules>
   </component>
 </project>
