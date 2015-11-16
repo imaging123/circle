@@ -17,7 +17,13 @@
     必须遵循：mapper.xml和mapper.java文件同名且在一个目录
      -->
 
+<<<<<<< HEAD
      <mappers>
          <mapper resource="mappers/UserMapper.xml"/>
     </mappers>
+=======
+    <!-- <mappers>
+
+    </mappers> -->
+>>>>>>> db78812e89821a3a7af912734a95166ef4ffc013
 </configuration>

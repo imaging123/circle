@@ -1,4 +1,8 @@
 *.class
-/.ideal
+/.idea
+**/.idea
 /out
 /target
+/out/**
+**/target
+*.iml
