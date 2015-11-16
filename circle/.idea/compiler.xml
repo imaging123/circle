@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-<<<<<<< HEAD
     <option name="DEFAULT_COMPILER" value="Javac" />
-=======
->>>>>>> 09036780e56b35e30f12f9239febe3983d13e3d7
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
@@ -15,10 +12,6 @@
       <entry name="!?*.flex" />
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
-<<<<<<< HEAD
-=======
-      <entry name="!?*.aj" />
->>>>>>> 09036780e56b35e30f12f9239febe3983d13e3d7
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
@@ -29,37 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-<<<<<<< HEAD
-=======
         <module name="circle-dao" />
         <module name="circle-entity" />
         <module name="circle-service" />
         <module name="circle-web" />
->>>>>>> 09036780e56b35e30f12f9239febe3983d13e3d7
-        <module name="com.circle.dao" />
-        <module name="com.circle.entity" />
-        <module name="com.circle.service" />
-        <module name="com.circle.web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-<<<<<<< HEAD
       <module name="circle" target="1.7" />
-      <module name="com.circle.dao" target="1.7" />
-      <module name="com.circle.entity" target="1.7" />
-      <module name="com.circle.service" target="1.7" />
-      <module name="com.circle.web" target="1.7" />
-=======
-      <module name="circle" target="1.5" />
-      <module name="circle-dao" target="1.5" />
-      <module name="circle-entity" target="1.5" />
-      <module name="circle-service" target="1.5" />
-      <module name="circle-web" target="1.5" />
-      <module name="com.circle.dao" target="1.5" />
-      <module name="com.circle.entity" target="1.5" />
-      <module name="com.circle.service" target="1.5" />
-      <module name="com.circle.web" target="1.5" />
->>>>>>> 09036780e56b35e30f12f9239febe3983d13e3d7
+      <module name="circle-dao" target="1.7" />
+      <module name="circle-entity" target="1.7" />
+      <module name="circle-service" target="1.7" />
+      <module name="circle-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

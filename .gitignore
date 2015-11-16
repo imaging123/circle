@@ -1,5 +1,6 @@
 *.class
-/.ideal
+/.idea
+**/.idea
 /out
 /target
 *.iml
