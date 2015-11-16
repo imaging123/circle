@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.circle.dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.circle.entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.circle.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com.circle.web" charset="UTF-8" />
+=======
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle-web/src/main/resources/log4j.properties" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+>>>>>>> 09036780e56b35e30f12f9239febe3983d13e3d7
   </component>
 </project>

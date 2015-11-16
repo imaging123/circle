@@ -3,10 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/circle.iml" filepath="$PROJECT_DIR$/circle.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/com.circle.dao/com.circle.dao.iml" filepath="$PROJECT_DIR$/com.circle.dao/com.circle.dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.circle.entity/com.circle.entity.iml" filepath="$PROJECT_DIR$/com.circle.entity/com.circle.entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.circle.service/com.circle.service.iml" filepath="$PROJECT_DIR$/com.circle.service/com.circle.service.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.circle.web/com.circle.web.iml" filepath="$PROJECT_DIR$/com.circle.web/com.circle.web.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/circle-dao/circle-dao.iml" filepath="$PROJECT_DIR$/circle-dao/circle-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-entity/circle-entity.iml" filepath="$PROJECT_DIR$/circle-entity/circle-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-service/circle-service.iml" filepath="$PROJECT_DIR$/circle-service/circle-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle-web/circle-web.iml" filepath="$PROJECT_DIR$/circle-web/circle-web.iml" />
+>>>>>>> 09036780e56b35e30f12f9239febe3983d13e3d7
     </modules>
   </component>
 </project>
