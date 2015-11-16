@@ -1,8 +1,8 @@
 *.class
 /.idea
 **/.idea
-/out
+*/out
 /target
-/out/**
+*/out/**
 **/target
 *.iml
