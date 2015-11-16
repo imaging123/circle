@@ -1,12 +1,5 @@
 package com.circle.entity.member;
 
-import com.circle.entity.annotation.Table;
-import com.circle.entity.base.BaseEntity;
-
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-
 /**
  * Created by bixiaofeng on 2015/11/11.
  */

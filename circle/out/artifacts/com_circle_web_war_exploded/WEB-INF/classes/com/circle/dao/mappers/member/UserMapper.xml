@@ -5,13 +5,7 @@
 
 <mapper namespace="com.circle.dao.mappers.member.UserMapper">
 
-    <resultMap id="userResult" type="com.circle.entity.member.User" autoMapping="true">
-        <result property="id" column="id"/>
-        <result property="username" column="username"/>
-        <result property="password" column="password"/>
-    </resultMap>
-
-    <select id="getUserByPassword" resultMap="userResult">
+    <select id="getUserByPassword" resultMap="com.circle.entity.member.User">
         select * from member_user where username = #{username} and password = #{password}
     </select>
 

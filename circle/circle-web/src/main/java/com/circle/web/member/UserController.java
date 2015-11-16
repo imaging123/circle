@@ -1,12 +1,12 @@
 package com.circle.web.member;
 
+import com.circle.dao.mappers.member.UserMapper;
 import com.circle.entity.member.User;
-import com.circle.service.member.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -17,14 +17,14 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping("/user")
 public class UserController {
 
-	@Autowired
-	private UserService userService;
+	@Resource
+	private UserMapper userMapper;
 
 	@RequestMapping("/login")
 	public ModelAndView login(HttpServletRequest request, HttpServletResponse response){
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		User user = userService.getUserByUsernameAndPassword(username, password);
+		User user = userMapper.getUserByPassword(username, password);
 		request.getSession().setAttribute("user", user);
 		request.setAttribute("user", user);
 
