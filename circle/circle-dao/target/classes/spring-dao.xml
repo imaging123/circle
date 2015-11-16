@@ -6,11 +6,7 @@
 
     <context:component-scan base-package="com.circle.dao"/>
 
-<<<<<<< HEAD
     <context:property-placeholder location="classpath:configuration.properties"/>
-=======
-    <context:property-placeholder location="classpath*:configuration.properties"/>
->>>>>>> db78812e89821a3a7af912734a95166ef4ffc013
 
     <!-- druid filter配置 -->
     <bean id="stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">
