@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.circle.dao.mappers.bbs.ForumMapper">
+
+    <select id="selectForumById" parameterType="Long" resultType="com.circle.entity.bbs.Forum">
+        SELECT * FROM bbs_forum WHERE fid = #{VALUE}
+    </select>
+
+    <insert id="insertForum" parameterType="com.circle.entity.bbs.Forum">
+        INSERT INTO bbs_forum (name, fup, theme_num )
+        VALUES (#{name}, #{fup}, #{theme_num} )
+    </insert>
+
+    <delete id="deleteForum" parameterType="Long">
+        DELETE FROM bbs_forum WHERE fid = #{value}
+    </delete>
+
+    <select id="selectChildForumList" resultType="com.circle.entity.bbs.Forum" parameterType="Long">
+        SELECT * FROM bbs_forum WHERE fup = #{value};
+    </select>
+
+</mapper>

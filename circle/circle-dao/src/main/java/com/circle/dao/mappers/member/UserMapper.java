@@ -10,4 +10,5 @@ public interface UserMapper{
 
 	public User getUserByPassword(@Param("username")String username, @Param("password")String password);
 
+
 }

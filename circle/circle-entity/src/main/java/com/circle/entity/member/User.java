@@ -1,9 +1,11 @@
 package com.circle.entity.member;
 
+import com.circle.entity.base.BaseEntity;
+
 /**
  * Created by bixiaofeng on 2015/11/11.
  */
-public class User {
+public class User extends BaseEntity{
 	private Integer id;
 	private String username;
 	private String password;

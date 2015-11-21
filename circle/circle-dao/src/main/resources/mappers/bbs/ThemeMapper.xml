@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.circle.dao.mappers.bbs.ForumMapper">
+
+    <resultMap id="themeMap" type="com.circle.entity.bbs.Theme">
+        <id column="fid" property="fid"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="created_date" property="createdDate"/>
+        <result column="modified_date" property="modifiedDate"/>
+        <collection property="posts" resultMap="com.circle.entity.bbs.Post"/>
+    </resultMap>
+    
+    <select id="selectTheme" parameterType="Long" resultType="com.circle.entity.bbs.Theme">
+        SELECT * FROM bbs_theme WHERE tid = #{VALUE}
+    </select>
+
+    <insert id="insertTheme" parameterType="com.circle.entity.bbs.Theme">
+        INSERT INTO bbs_forum (title, fid, content, posts_num, author_id)
+        VALUES (#{title}, #{fid}, #{content}, #{postsNum}, #{authorId} )
+    </insert>
+
+    <delete id="deleteTheme" parameterType="Long">
+        DELETE FROM bbs_theme WHERE tid = #{value}
+    </delete>
+</mapper>
