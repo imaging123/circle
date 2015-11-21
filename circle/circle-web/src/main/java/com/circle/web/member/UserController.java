@@ -1,7 +1,7 @@
 package com.circle.web.member;
 
-import com.circle.dao.mappers.member.UserMapper;
 import com.circle.entity.member.User;
+import com.circle.service.member.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,13 +18,13 @@ import javax.servlet.http.HttpServletResponse;
 public class UserController {
 
 	@Resource
-	private UserMapper userMapper;
+	private UserService userService;
 
 	@RequestMapping("/login")
 	public ModelAndView login(HttpServletRequest request, HttpServletResponse response){
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		User user = userMapper.getUserByPassword(username, password);
+		User user = userService.getUserByUsernameAndPassword(username, password);
 		request.getSession().setAttribute("user", user);
 		request.setAttribute("user", user);
 
